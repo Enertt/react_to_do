@@ -1,0 +1,243 @@
+.main{
+    user-select: none;
+    display: flex;
+    float: right;
+    background-color:#FBFBFB;
+    width: 90vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 97%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 6px rgb(201, 201, 201);
+}
+
+.themeBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 30%;
+}
+
+.day{
+    height: 90%;
+    width: 40%;
+}
+.day .svg, .day svg{
+    width: auto;
+    height: 100%;
+    border: rgb(211, 211, 211) solid 1px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.day .svgActive{
+    width: auto;
+    height: 100%;
+    border: rgb(211, 211, 211) solid 1px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.night{
+    height: 90%;
+    width: 40%;
+}
+.night .svg, .night svg{
+    width: auto;
+    height: 100%;
+    float: right;
+    border: rgb(211, 211, 211) solid 1px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.night .svgActive{
+    width: auto;
+    height: 100%;
+    float: right;
+    border: rgb(211, 211, 211) solid 1px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.day .svg:hover, .night .svg:hover, .day .svgActive:hover, .night .svgActive:hover{
+    box-shadow: 0 0 6px rgb(201, 201, 201);
+
+}
+
+@media (max-width: 1120px) {
+    .themeBlock{
+        width: 70%;
+    }
+}
+
+@media (max-width: 640px) {
+    .themeBlock{
+        width: 90%;
+    }
+}
+
+@media (max-width: 530px) {
+    .themeBlock{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+    }
+    .day .svg{
+        width: 100%;
+        height: auto;
+        float: right;
+        border: rgb(211, 211, 211) solid 1px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .night .svg{
+        width: 100%;
+        height: auto;
+        float: right;
+        border: rgb(211, 211, 211) solid 1px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+
+
+.mainDark{
+    user-select: none;
+    display: flex;
+    float: right;
+    background-color:#3a3a3a;
+    width: 90vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+    .mainContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 97%;
+        height: 95%;
+        border-radius: 20px;
+        background-color: #3a3a3a;
+        box-shadow: 0 0 6px rgb(201, 201, 201);
+    }
+    
+    .themeBlock{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+        height: 30%;
+    }
+    
+    .day{
+        height: 90%;
+        width: 40%;
+    }
+    .day .svg, .day svg{
+        color: white;
+        width: auto;
+        height: 100%;
+        border: rgb(211, 211, 211) solid 1px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        
+    }
+    .day .svgActive{
+        width: auto;
+        height: 100%;
+        border: rgb(211, 211, 211) solid 1px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        
+    }
+    
+    .night{
+        height: 90%;
+        width: 40%;
+    }
+    .night .svg, .night svg{
+        color: white;
+        width: auto;
+        height: 100%;
+        float: right;
+        border: rgb(211, 211, 211) solid 1px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .night .svgActive{
+        width: auto;
+        height: 100%;
+        float: right;
+        border: rgb(211, 211, 211) solid 1px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        
+    }
+    .day .svg:hover, .night .svg:hover, .day .svgActive:hover, .night .svgActive:hover{
+        box-shadow: 0 0 6px rgb(201, 201, 201);
+    
+    }
+    
+    @media (max-width: 1120px) {
+        .themeBlock{
+            width: 70%;
+        }
+    }
+    
+    @media (max-width: 640px) {
+        .themeBlock{
+            width: 90%;
+        }
+    }
+    
+    @media (max-width: 530px) {
+        .themeBlock{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 70%;
+        }
+        .day .svg{
+            width: 100%;
+            height: auto;
+            float: right;
+            border: rgb(211, 211, 211) solid 1px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        .night .svg{
+            width: 100%;
+            height: auto;
+            float: right;
+            border: rgb(211, 211, 211) solid 1px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    }
+}
